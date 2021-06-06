@@ -8,6 +8,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { NavigateComponent } from './navigate/navigate.component';
 import {HttpClientModule} from "@angular/common/http";
 import { DemoComponent } from './demo/demo.component';
+import { PatelComponent } from './patel/patel.component';
 
 
 
@@ -19,6 +20,7 @@ import { DemoComponent } from './demo/demo.component';
     NotFoundComponent,
     NavigateComponent,
     DemoComponent,
+    PatelComponent,
   ],
   imports: [
     BrowserModule, AppRoutingModule,HttpClientModule
